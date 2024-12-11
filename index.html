@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewelry Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1>Jewelry Bliss</h1>
+        <nav>
+            <ul>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="gallery" class="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery-container">
+                <img src="images/image1.jpg" alt="Necklace 1">
+                <img src="images/image2.jpg" alt="Necklace 2">
+                <img src="images/image3.jpg" alt="Necklace 3">
+            </div>
+        </section>
+
+        <section id="products" class="products">
+            <h2>Our Products</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img src="images/necklace1.jpg" alt="Elegant Necklace">
+                    <p>Brand: ShineBright</p>
+                    <p>Price: $49.99</p>
+                </div>
+                <div class="product">
+                    <img src="images/bracelet1.jpg" alt="Stylish Bracelet">
+                    <p>Brand: GlamJewels</p>
+                    <p>Price: $39.99</p>
+                </div>
+                <div class="product">
+                    <img src="images/earrings1.jpg" alt="Charming Earrings">
+                    <p>Brand: PrettyPearls</p>
+                    <p>Price: $29.99</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Jewelry Bliss. All rights reserved.</p>
+    </footer>
+</body>
+</html>
